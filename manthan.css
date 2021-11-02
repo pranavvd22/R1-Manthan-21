@@ -1,0 +1,114 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body{
+  background-image: url('./c5391f16b9658ec7bf2470e7c4775a66001.png');
+  background-size: 100% 100%;
+
+}
+.example{
+  height:100%;
+  background-color:  #50d4ff;
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.jumbotron{
+  background-color: #1a2980 ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.example::-webkit-scrollbar {
+  display: none;
+  
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  
+}
+
+.timer {
+  font-size: 40px;
+  /* background-color: y ; */
+}
+
+.floating-timer {
+    position: fixed;
+    top: 5%;
+    left: 70%;
+    font-weight: bolder;
+}
+
+img{
+  position: absolute;
+  top: 1.5%;
+  width: 200px;
+  height: 200px;
+  left: 1%;
+  padding: 5px 5px ;
+  border: 50px;
+}
+
+.card1{
+  width: 220px;
+  height: 150px;
+  border-radius:10px ;
+  box-shadow: 0 0 20px white, 0 0 20px white, 0 0 20px white, 0 0 20px white;
+    color: rgb(1, 255, 69);
+}
+
+.card:hover {
+  transform: translate(0px,-13px);
+  
+  border-radius: 40px;
+    /* background: red; */
+    color: white;
+    box-shadow: 0 0 5px #fdffff, 0 0 25px #ffffff, 0 0 25px #ffffff, 0 25px 23px #ffffff;
+    /* color: rgb(255, 1, 1); */
+    /* background-color: #1a1918; */
+
+  }
+  .display-5
+  {
+    font-weight:800  ;
+  }
+
+  .stretched-link::after {
+    position: absolute;
+    top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(157, 221, 7, 0);
+  /* border: 35px rgb(195, 245, 16); */
+}
+
+
+.card {
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+  margin: 10px 10px;
+}
+.card1:hover
+{
+  transform: scale(1.2);
+
+}
+
+#exampleModalLabel{
+  padding: 5px 5px 5px 5px;
+}
+
+/* .time-buttons{
+  padding: 0 10px 20px 5px;
+  position: relative;
+} */
